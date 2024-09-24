@@ -2,10 +2,17 @@ public class WarmUp
 {
   public static void main(String[] args)
   {
-    // test your methods here
+    System.out.println(isEven(49));
+    System.out.println(isDivisible(25, 5));
   }
 
-  // write your methods below
+  public static boolean isEven(int n)
+  {
+    return (n % 2 == 0);
+  }
 
-  
+  public static boolean isDivisible(int a, int b)
+  {
+    return(a % b == 0);
+  }
 }
